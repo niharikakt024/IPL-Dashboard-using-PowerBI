@@ -121,6 +121,14 @@ Give this repository a ⭐ on GitHub!
 
 ## 👨‍💻 Author
 
-**Rainbow Cubs**
+**Niharika K T**
+
+**Aspiring Data Analyst | Power BI | SQL | Excel | Python | Data Visualization**
+
+📧 Email: niharikakt024@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/niharika-k-t-8a1a2728a  
+💻 GitHub: https://github.com/niharikakt024
+
+---
 
 Feel free to connect and share your feedback!
