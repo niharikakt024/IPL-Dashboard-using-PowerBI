@@ -4,14 +4,6 @@ An interactive **IPL Analysis Dashboard** built using **Microsoft Power BI** to 
 
 ---
 
-## 📸 Dashboard Preview
-
-> Add your dashboard screenshot here.
-
-![IPL Dashboard](dashboard_overview.png)
-
----
-
 ## 🚀 Features
 
 - 📅 Filter data by IPL Season (Year)
