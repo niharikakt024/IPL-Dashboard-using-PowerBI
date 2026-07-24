@@ -1,123 +1,79 @@
-# 🏏 IPL Analysis Dashboard
+# 🏏 IPL Analysis Dashboard using Power BI
 
-An interactive **IPL Analysis Dashboard** built using **Microsoft Power BI** to analyze Indian Premier League (IPL) statistics. This dashboard provides insights into batting, bowling, team performance, player achievements, and match-winning trends through interactive visualizations.
+An interactive **Power BI dashboard** analyzing Indian Premier League (IPL) match data — covering team performance, batsman and bowler stats, toss decisions, and top individual performers, filterable by season.
 
----
-
-## 🚀 Features
-
-- 📅 Filter data by IPL Season (Year)
-- 🏏 Overall Tournament Statistics
-  - Total Runs
-  - Total Wickets
-  - Total 4's
-  - Total 6's
-- 🧢 Orange Cap Holder
-- 🟣 Purple Cap Holder
-- ⭐ Most Player of the Match Awards
-- 👤 Interactive Batsman Analysis
-  - Total Runs
-  - Strike Rate
-  - Total 4's
-  - Total 6's
-- 🎯 Interactive Bowler Analysis
-  - Total Wickets
-  - Economy Rate
-  - Strike Rate
-- 📊 Top 5 Batsmen
-- 📊 Top 5 Bowlers
-- 🏆 Top Winning Teams
-- 🪙 Toss Decision Analysis
-- 🥇 Player of the Match Analysis
+🔗 **Repository:** [IPL-Dashboard-using-PowerBI](https://github.com/niharikakt024/IPL-Dashboard-using-PowerBI)
 
 ---
 
-## 🛠️ Built With
+## 🖥️ Dashboard Preview
 
-- **Microsoft Power BI**
-- Power Query
-- DAX (Data Analysis Expressions)
-- Data Modeling
+A single-page view combining season KPIs, player-level stats with searchable slicers, and team/toss performance breakdowns, filterable by year.
 
----
-
-## 📂 Dataset
-
-The dashboard is created using IPL match and player statistics datasets.
-
-Typical data includes:
-- Matches
-- Deliveries
-- Players
-- Teams
-- Seasons
+![IPL Analysis Dashboard](dashboard_overview.png)
 
 ---
 
-## 📈 Dashboard Insights
+## ✨ Key Features
 
-- Analyze team performances across seasons.
-- Compare batting performances of top players.
-- Evaluate bowling statistics like economy and strike rate.
-- Identify Orange Cap and Purple Cap winners.
-- Understand toss decision trends.
-- Discover the most successful IPL teams.
-- Explore Player of the Match achievements.
+- **Year Filter** — Analyze a specific IPL season (e.g., 2021)
+- **KPI Cards** — Champion team, Total Runs, Total Wickets, Total 6's, Total 4's, and Most Player of the Match Award
+- **Orange & Purple Cap** — Top run-scorer and top wicket-taker of the season
+- **Batsman Stats** — Searchable batsman selector showing Total Runs, 6's, 4's, and Strike Rate
+- **Bowler Stats** — Searchable bowler selector showing Total Wickets, Economy, and Strike Rate
+- **Toss Decision Analysis** — Donut chart of match wins by bat/field toss decision
+- **Top 5 Batsman & Bowler** — Season leaderboards by runs and wickets
+- **Top Winning Teams** — Breakdown of wins by result type (runs, tie, wickets) per team
+- **Count of Player of the Match** — Ranked list of most frequent Player of the Match winners
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Tech Stack
+
+- **Tool:** Microsoft Power BI Desktop
+- **Data Modeling:** Star schema with match, ball-by-ball, batsman, bowler, and team dimension tables
+- **DAX:** Custom measures for strike rate, economy, toss-decision win %, and top-N rankings
+- **Data Source:** Historical IPL match and ball-by-ball data
+
+---
+
+## 📁 Repository Structure
 
 ```
-IPL-Analysis-Dashboard/
+IPL-Dashboard-using-PowerBI/
 │
-├── IPL Analysis Dashboard.pbix
-└── README.md
+├── IPL Analysis Dashboard final.pbix          # Power BI dashboard file
+├── deliveries.xlsx                  # Deliveries dataset 
+├── matches.csv                   # Matches dataset
+├── dashboard_overview.png.png            # Dashboard preview images
+└── README.md                # Project documentation
 ```
 
 ---
 
-## 🎯 Key KPIs
+## 🚀 Getting Started
 
-| KPI | Description |
-|------|-------------|
-| Total Runs | Runs scored in selected season |
-| Total Wickets | Total wickets taken |
-| Total 4's | Number of boundaries |
-| Total 6's | Number of sixes |
-| Orange Cap | Highest Run Scorer |
-| Purple Cap | Highest Wicket Taker |
-| Player of the Match | Most Awards Won |
+1. Clone the repository
+   ```bash
+  https://github.com/niharikakt024/IPL-Dashboard-using-PowerBI.git
+   ```
+2. Open the `.pbix` file in **Power BI Desktop**
+3. Refresh the data source (if connected to live data)
+4. Use the Year filter and Batsman/Bowler selectors to explore player and team performance
 
 ---
 
-## 📸 Dashboard Highlights
+## 📈 Key Insights
 
-- Interactive slicers
-- Clean and modern UI
-- Dynamic DAX measures
-- Season-wise filtering
-- Performance comparison
-- Easy-to-understand visualizations
-
----
-
-## 💡 Future Improvements
-
-- Add venue analysis
-- Add head-to-head team comparison
-- Player career analysis
-- Win probability analysis
-- Power BI Service deployment
-- Mobile responsive dashboard
+- **Chennai Super Kings** were the champions of the 2021 season
+- **RD Gaikwad** topped the run charts with **635 runs** (Orange Cap), while **HV Patel** led wicket-taking with **35 wickets** (Purple Cap)
+- **A Mishra** won the Most Player of the Match Award for the season
+- Teams winning the toss chose to **field 80%** of the time, showing a strong bowl-first bias
+- **Delhi Capitals** posted the most wins by result type combined, with a mix of both run-based and wicket-based victories
+- **SP Narine** led the season in individual Player of the Match awards with 3 wins
 
 ---
 
-## ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub!
-
----
 
 ## 👨‍💻 Author
 
