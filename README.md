@@ -87,4 +87,4 @@ IPL-Dashboard-using-PowerBI/
 
 ---
 
-Feel free to connect and share your feedback!
+⭐ If you find this project useful, consider giving the repository a star!
