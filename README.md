@@ -55,7 +55,7 @@ IPL-Dashboard-using-PowerBI/
 
 1. Clone the repository
    ```bash
-  https://github.com/niharikakt024/IPL-Dashboard-using-PowerBI.git
+   git clone https://github.com/niharikakt024/Sales-Insight-Dashboard-using-PowerBI.git
    ```
 2. Open the `.pbix` file in **Power BI Desktop**
 3. Refresh the data source (if connected to live data)
